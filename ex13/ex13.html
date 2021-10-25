@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise 13 </title>
+    <style>
+        .gradient {
+            background-image: url("images/gradient.jpg");
+            background-repeat: repeat-x;
+        }
+
+        .felt {
+            width: 300px;
+            height: 300px;
+            background-image: url("images/felt.jpg");
+            position: relative;
+        }
+        .ten {
+            position: absolute;
+            top: 140px;
+            left: 110px;
+            z-index: 5;
+        }
+        .jack {
+            position: absolute;
+            top: 115px;
+            left: 110px;
+            z-index: 4;
+        }
+        .queen {
+            position: absolute;
+            top: 90px;
+            left: 110px;
+            z-index: 3;
+        }
+        .king {
+            position: absolute;
+            top: 65px;
+            left: 110px;
+            z-index: 2;
+        }
+        .back_card {
+            position: absolute;
+            top: 40px;
+            left: 110px;
+            width: 64px;
+            height: 100px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="gradient">
+<div class="felt">
+<img class="ten" src="images/tendiamonds.png" alt="Ten of diamonds playing card.">
+<img class="queen" src="images/queenhearts.png" alt="Queen of hearts playing card.">
+<img class="king" src="images/kingspades.png" alt="King of spades playing card.">
+<img class="jack" src="images/jackclubs.png" alt="Jack of clubs playing card.">
+<img class="back_card" src="images/card.png" alt="back of palying card.">
+</div>
+</body>
+</html>
